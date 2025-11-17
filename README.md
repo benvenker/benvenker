@@ -12,7 +12,9 @@ AI product manager with deep search chops who spends off-hours building agentic 
 ### [Neumann](https://github.com/benvenker/neumann) 🚧
 Photographic memory for agents.
 - Lets multimodal coding agents load rich context as images instead of text, dramatically cutting token usage while maximizing context window efficiency.
-- Hybrid search pipeline that chunks Markdown/code, runs lexical (regex, sparse/dense vector, bm25) + semantic search, and renders matches to PDF/WebP pages or tiles.
+- Hybrid search pipeline that chunks Markdown/code, runs lexical (regex, sparse/dense vector, bm25) + semantic search.
+- Image generation pipeline that renders files and chunks to PDF then to WebP tiles.
+- Agent searches neumann with text search, gets back token-efficient WebP files that contain the matches
 
 ### [CodeRabbit Review Processor Action](https://github.com/benvenker/coderabbit-processor-action) 🟢
 CodeRabbit reviews alongside GitHub PRs use a ton of your context window. This project cleans the API response from the GitHub CLI and only sends the agent what it needs.
